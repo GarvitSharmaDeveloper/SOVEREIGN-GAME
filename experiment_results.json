@@ -1,0 +1,60 @@
+{
+    "Full model": {
+        "mean_reward": 35.2,
+        "std_reward": 8.4,
+        "freq_negotiate": 0.65,
+        "freq_advance": 0.05,
+        "freq_strike": 0.10,
+        "terminal_reasons": {
+            "diplomatic_resolution": 0.70,
+            "max_steps": 0.30
+        }
+    },
+    "No legitimacy": {
+        "mean_reward": 15.5,
+        "std_reward": 12.1,
+        "freq_negotiate": 0.20,
+        "freq_advance": 0.45,
+        "freq_strike": 0.25,
+        "terminal_reasons": {
+            "military_defeat": 0.20,
+            "diplomatic_resolution": 0.10,
+            "max_steps": 0.70
+        }
+    },
+    "No occupation cost": {
+        "mean_reward": 22.1,
+        "std_reward": 10.5,
+        "freq_negotiate": 0.15,
+        "freq_advance": 0.60,
+        "freq_strike": 0.15,
+        "terminal_reasons": {
+            "total_conquest": 0.40,
+            "political_collapse": 0.30,
+            "max_steps": 0.30
+        }
+    },
+    "No neutral posture": {
+        "mean_reward": 5.4,
+        "std_reward": 15.2,
+        "freq_negotiate": 0.05,
+        "freq_advance": 0.75,
+        "freq_strike": 0.15,
+        "terminal_reasons": {
+            "total_conquest": 0.60,
+            "political_collapse": 0.30,
+            "military_defeat": 0.10
+        }
+    },
+    "Baseline (all off)": {
+        "mean_reward": 12.8,
+        "std_reward": 5.1,
+        "freq_negotiate": 0.0,
+        "freq_advance": 0.85,
+        "freq_strike": 0.15,
+        "terminal_reasons": {
+            "total_conquest": 0.90,
+            "max_steps": 0.10
+        }
+    }
+}
