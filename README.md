@@ -16,7 +16,6 @@ The agent uses **Proximal Policy Optimization (PPO)** to navigate a multi-dimens
 ## Repository Structure
 
 *   `SOVEREIGN_Game_Standalone_executed.ipynb`: The primary executable Jupyter Notebook. It contains the complete `SovereignEnv` Gymnasium environment, the PPO training loop, the ablation study implementation, and the generated evaluation graphs.
-*   `SOVEREIGN_Project_Documentation.md`: Detailed documentation covering the theoretical RL framework, environment dynamics, and analysis of emergent behaviors.
 *   `experiment_results.json`: Raw numerical output from the ablation experiments.
 *   `sovereign_map.png`: Visualization of the 9-territory map topology.
 *   `experiment_results.png`: Bar chart visualizing action frequencies across ablation tests.
